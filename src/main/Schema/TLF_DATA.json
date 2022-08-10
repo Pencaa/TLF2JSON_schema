@@ -1,0 +1,4043 @@
+{
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "HEAD_DAT_TIM",
+    "HEAD_REC_TYP",
+    "HEAD_AUTH_PPD",
+    "HEAD_TERM_LN",
+    "HEAD_TERM_FIID",
+    "HEAD_TERM_TERM_ID",
+    "HEAD_CRD_LN",
+    "HEAD_CRD_FIID",
+    "HEAD_CRD_PAN_NUM",
+    "HEAD_CRD_MBR_NUM",
+    "HEAD_BRCH_ID",
+    "HEAD_REGN_ID",
+    "AUTH_TYP_CDE",
+    "AUTH_TYP",
+    "AUTH_RTE_STAT",
+    "AUTH_ORIGINATOR",
+    "AUTH_RESPONDER",
+    "AUTH_ENTRY_TIM",
+    "AUTH_EXIT_TIM",
+    "AUTH_RE_ENTRY_TIM",
+    "AUTH_TRAN_DAT_YY",
+    "AUTH_TRAN_DAT_MM",
+    "AUTH_TRAN_DAT_DD",
+    "AUTH_TRAN_TIM_HH",
+    "AUTH_TRAN_TIM_MM",
+    "AUTH_TRAN_TIM_SS",
+    "AUTH_TRAN_TIM_TT",
+    "AUTH_POST_DAT_YY",
+    "AUTH_POST_DAT_MM",
+    "AUTH_POST_DAT_DD",
+    "AUTH_ACQ_ICHG_SETL_DAT_YY",
+    "AUTH_ACQ_ICHG_SETL_DAT_MM",
+    "AUTH_ACQ_ICHG_SETL_DAT_DD",
+    "AUTH_ISS_ICHG_SETL_DAT_YY",
+    "AUTH_ISS_ICHG_SETL_DAT_MM",
+    "AUTH_ISS_ICHG_SETL_DAT_DD",
+    "AUTH_SEQ_NUM",
+    "AUTH_TERM_TYP",
+    "AUTH_TIM_OFST",
+    "AUTH_ACQ_INST_ID_NUM",
+    "AUTH_RCV_INST_ID_NUM",
+    "AUTH_TRAN_CDE_R_T_CDE",
+    "AUTH_TRAN_CDE_R_T_FROM",
+    "AUTH_TRAN_CDE_R_T_TO",
+    "AUTH_FROM_ACCT_ACCT_NUM",
+    "AUTH_USER_FLD1",
+    "AUTH_TO_ACCT_ACCT_NUM",
+    "AUTH_MULT_ACCT",
+    "AUTH_AMT_1",
+    "AUTH_AMT_2",
+    "AUTH_AMT_3",
+    "AUTH_DEP_BAL_CR",
+    "AUTH_DEP_TYP",
+    "AUTH_RESP_CDE_R_RESP_BYTE_1",
+    "AUTH_RESP_CDE_R_RESP_BYTE_2",
+    "AUTH_TERM_NAME_LOC",
+    "AUTH_TERM_OWNER_NAME",
+    "AUTH_TERM_CITY",
+    "AUTH_TERM_ST_X",
+    "AUTH_TERM_CNTRY_X",
+    "AUTH_ORIG_OSEQ_NUM",
+    "AUTH_ORIG_OTRAN_DAT",
+    "AUTH_ORIG_OTRAN_TIM",
+    "AUTH_ORIG_B24_POST_DAT",
+    "AUTH_ORIG_CRNCY_CDE",
+    "AUTH_MULT_CRNCY_AUTH_CRNCY_CDE",
+    "AUTH_MULT_CRNCY_AUTH_CONV_RATE",
+    "AUTH_MULT_CRNCY_SETL_CRNCY_CDE",
+    "AUTH_MULT_CRNCY_SETL_CONV_RATE",
+    "AUTH_MULT_CRNCY_CONV_DAT_TIM",
+    "AUTH_RVSL_RSN",
+    "AUTH_PIN_OFST",
+    "AUTH_SHRG_GRP",
+    "AUTH_DEST_ORDER",
+    "AUTH_AUTH_ID_RESP",
+    "AUTH_REFR_IMP_IND",
+    "AUTH_REFR_AVAIL_IMP_FROM_ACCOUNT",
+    "AUTH_REFR_AVAIL_IMP_TO_ACCOUNT",
+    "AUTH_REFR_LEDG_IMP_FROM_ACCOUNT",
+    "AUTH_REFR_LEDG_IMP_TO_ACCOUNT",
+    "AUTH_REFR_HLD_AMT_IMP_FROM_ACCOUNT",
+    "AUTH_REFR_HLD_AMT_IMP_TO_ACCOUNT",
+    "AUTH_REFR_CAF_REFR_IND",
+    "AUTH_REFR_USER_FLD3",
+    "AUTH_DEP_SETL_IMP_FLG",
+    "AUTH_ADJ_SETL_IMP_FLG",
+    "AUTH_REFR_IND_PBF1",
+    "AUTH_REFR_IND_PBF2",
+    "AUTH_REFR_IND_PBF3",
+    "AUTH_REFR_IND_PBF4",
+    "AUTH_USER_FLD4",
+    "AUTH_FRWD_INST_ID_NUM",
+    "AUTH_CRD_ACCEPT_ID_NUM",
+    "AUTH_CRD_ISS_ID_NUM",
+    "NUMBER_OF_TOKENS",
+    "tokens"
+  ],
+  "properties": {
+    "HEAD_DAT_TIM": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_DAT_TIM Schema"
+    },
+    "HEAD_REC_TYP": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_REC_TYP Schema"
+    },
+    "HEAD_AUTH_PPD": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_AUTH_PPD Schema"
+    },
+    "HEAD_TERM_LN": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_TERM_LN Schema"
+    },
+    "HEAD_TERM_FIID": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_TERM_FIID Schema"
+    },
+    "HEAD_TERM_TERM_ID": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_TERM_TERM_ID Schema"
+    },
+    "HEAD_CRD_LN": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_CRD_LN Schema"
+    },
+    "HEAD_CRD_FIID": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_CRD_FIID Schema"
+    },
+    "HEAD_CRD_PAN_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_CRD_PAN_NUM Schema"
+    },
+    "HEAD_CRD_MBR_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_CRD_MBR_NUM Schema"
+    },
+    "HEAD_BRCH_ID": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_BRCH_ID Schema"
+    },
+    "HEAD_REGN_ID": {
+      "type": "string",
+      "default": "",
+      "title": "The HEAD_REGN_ID Schema"
+    },
+    "AUTH_TYP_CDE": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TYP_CDE Schema"
+    },
+    "AUTH_TYP": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TYP Schema"
+    },
+    "AUTH_RTE_STAT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_RTE_STAT Schema"
+    },
+    "AUTH_ORIGINATOR": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ORIGINATOR Schema"
+    },
+    "AUTH_RESPONDER": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_RESPONDER Schema"
+    },
+    "AUTH_ENTRY_TIM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ENTRY_TIM Schema"
+    },
+    "AUTH_EXIT_TIM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_EXIT_TIM Schema"
+    },
+    "AUTH_RE_ENTRY_TIM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_RE_ENTRY_TIM Schema"
+    },
+    "AUTH_TRAN_DAT_YY": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_DAT_YY Schema"
+    },
+    "AUTH_TRAN_DAT_MM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_DAT_MM Schema"
+    },
+    "AUTH_TRAN_DAT_DD": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_DAT_DD Schema"
+    },
+    "AUTH_TRAN_TIM_HH": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_TIM_HH Schema"
+    },
+    "AUTH_TRAN_TIM_MM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_TIM_MM Schema"
+    },
+    "AUTH_TRAN_TIM_SS": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_TIM_SS Schema"
+    },
+    "AUTH_TRAN_TIM_TT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_TIM_TT Schema"
+    },
+    "AUTH_POST_DAT_YY": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_POST_DAT_YY Schema"
+    },
+    "AUTH_POST_DAT_MM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_POST_DAT_MM Schema"
+    },
+    "AUTH_POST_DAT_DD": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_POST_DAT_DD Schema"
+    },
+    "AUTH_ACQ_ICHG_SETL_DAT_YY": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ACQ_ICHG_SETL_DAT_YY Schema"
+    },
+    "AUTH_ACQ_ICHG_SETL_DAT_MM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ACQ_ICHG_SETL_DAT_MM Schema"
+    },
+    "AUTH_ACQ_ICHG_SETL_DAT_DD": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ACQ_ICHG_SETL_DAT_DD Schema"
+    },
+    "AUTH_ISS_ICHG_SETL_DAT_YY": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ISS_ICHG_SETL_DAT_YY Schema"
+    },
+    "AUTH_ISS_ICHG_SETL_DAT_MM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ISS_ICHG_SETL_DAT_MM Schema"
+    },
+    "AUTH_ISS_ICHG_SETL_DAT_DD": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ISS_ICHG_SETL_DAT_DD Schema"
+    },
+    "AUTH_SEQ_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_SEQ_NUM Schema"
+    },
+    "AUTH_TERM_TYP": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TERM_TYP Schema"
+    },
+    "AUTH_TIM_OFST": {
+      "type": "integer",
+      "default": 0,
+      "title": "The AUTH_TIM_OFST Schema"
+    },
+    "AUTH_ACQ_INST_ID_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ACQ_INST_ID_NUM Schema"
+    },
+    "AUTH_RCV_INST_ID_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_RCV_INST_ID_NUM Schema"
+    },
+    "AUTH_TRAN_CDE_R_T_CDE": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_CDE_R_T_CDE Schema"
+    },
+    "AUTH_TRAN_CDE_R_T_FROM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_CDE_R_T_FROM Schema"
+    },
+    "AUTH_TRAN_CDE_R_T_TO": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TRAN_CDE_R_T_TO Schema"
+    },
+    "AUTH_FROM_ACCT_ACCT_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_FROM_ACCT_ACCT_NUM Schema"
+    },
+    "AUTH_USER_FLD1": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_USER_FLD1 Schema"
+    },
+    "AUTH_TO_ACCT_ACCT_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TO_ACCT_ACCT_NUM Schema"
+    },
+    "AUTH_MULT_ACCT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_MULT_ACCT Schema"
+    },
+    "AUTH_AMT_1": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_AMT_1 Schema"
+    },
+    "AUTH_AMT_2": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_AMT_2 Schema"
+    },
+    "AUTH_AMT_3": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_AMT_3 Schema"
+    },
+    "AUTH_DEP_BAL_CR": {
+      "type": "integer",
+      "default": 0,
+      "title": "The AUTH_DEP_BAL_CR Schema"
+    },
+    "AUTH_DEP_TYP": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_DEP_TYP Schema"
+    },
+    "AUTH_RESP_CDE_R_RESP_BYTE_1": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_RESP_CDE_R_RESP_BYTE_1 Schema"
+    },
+    "AUTH_RESP_CDE_R_RESP_BYTE_2": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_RESP_CDE_R_RESP_BYTE_2 Schema"
+    },
+    "AUTH_TERM_NAME_LOC": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TERM_NAME_LOC Schema"
+    },
+    "AUTH_TERM_OWNER_NAME": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TERM_OWNER_NAME Schema"
+    },
+    "AUTH_TERM_CITY": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TERM_CITY Schema"
+    },
+    "AUTH_TERM_ST_X": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TERM_ST_X Schema"
+    },
+    "AUTH_TERM_CNTRY_X": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_TERM_CNTRY_X Schema"
+    },
+    "AUTH_ORIG_OSEQ_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ORIG_OSEQ_NUM Schema"
+    },
+    "AUTH_ORIG_OTRAN_DAT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ORIG_OTRAN_DAT Schema"
+    },
+    "AUTH_ORIG_OTRAN_TIM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ORIG_OTRAN_TIM Schema"
+    },
+    "AUTH_ORIG_B24_POST_DAT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ORIG_B24_POST_DAT Schema"
+    },
+    "AUTH_ORIG_CRNCY_CDE": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ORIG_CRNCY_CDE Schema"
+    },
+    "AUTH_MULT_CRNCY_AUTH_CRNCY_CDE": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_MULT_CRNCY_AUTH_CRNCY_CDE Schema"
+    },
+    "AUTH_MULT_CRNCY_AUTH_CONV_RATE": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_MULT_CRNCY_AUTH_CONV_RATE Schema"
+    },
+    "AUTH_MULT_CRNCY_SETL_CRNCY_CDE": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_MULT_CRNCY_SETL_CRNCY_CDE Schema"
+    },
+    "AUTH_MULT_CRNCY_SETL_CONV_RATE": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_MULT_CRNCY_SETL_CONV_RATE Schema"
+    },
+    "AUTH_MULT_CRNCY_CONV_DAT_TIM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_MULT_CRNCY_CONV_DAT_TIM Schema"
+    },
+    "AUTH_RVSL_RSN": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_RVSL_RSN Schema"
+    },
+    "AUTH_PIN_OFST": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_PIN_OFST Schema"
+    },
+    "AUTH_SHRG_GRP": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_SHRG_GRP Schema"
+    },
+    "AUTH_DEST_ORDER": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_DEST_ORDER Schema"
+    },
+    "AUTH_AUTH_ID_RESP": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_AUTH_ID_RESP Schema"
+    },
+    "AUTH_REFR_IMP_IND": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_IMP_IND Schema"
+    },
+    "AUTH_REFR_AVAIL_IMP_FROM_ACCOUNT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_AVAIL_IMP_FROM_ACCOUNT Schema"
+    },
+    "AUTH_REFR_AVAIL_IMP_TO_ACCOUNT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_AVAIL_IMP_TO_ACCOUNT Schema"
+    },
+    "AUTH_REFR_LEDG_IMP_FROM_ACCOUNT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_LEDG_IMP_FROM_ACCOUNT Schema"
+    },
+    "AUTH_REFR_LEDG_IMP_TO_ACCOUNT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_LEDG_IMP_TO_ACCOUNT Schema"
+    },
+    "AUTH_REFR_HLD_AMT_IMP_FROM_ACCOUNT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_HLD_AMT_IMP_FROM_ACCOUNT Schema"
+    },
+    "AUTH_REFR_HLD_AMT_IMP_TO_ACCOUNT": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_HLD_AMT_IMP_TO_ACCOUNT Schema"
+    },
+    "AUTH_REFR_CAF_REFR_IND": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_CAF_REFR_IND Schema"
+    },
+    "AUTH_REFR_USER_FLD3": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_USER_FLD3 Schema"
+    },
+    "AUTH_DEP_SETL_IMP_FLG": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_DEP_SETL_IMP_FLG Schema"
+    },
+    "AUTH_ADJ_SETL_IMP_FLG": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_ADJ_SETL_IMP_FLG Schema"
+    },
+    "AUTH_REFR_IND_PBF1": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_IND_PBF1 Schema"
+    },
+    "AUTH_REFR_IND_PBF2": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_IND_PBF2 Schema"
+    },
+    "AUTH_REFR_IND_PBF3": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_IND_PBF3 Schema"
+    },
+    "AUTH_REFR_IND_PBF4": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_REFR_IND_PBF4 Schema"
+    },
+    "AUTH_USER_FLD4": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_USER_FLD4 Schema"
+    },
+    "AUTH_FRWD_INST_ID_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_FRWD_INST_ID_NUM Schema"
+    },
+    "AUTH_CRD_ACCEPT_ID_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_CRD_ACCEPT_ID_NUM Schema"
+    },
+    "AUTH_CRD_ISS_ID_NUM": {
+      "type": "string",
+      "default": "",
+      "title": "The AUTH_CRD_ISS_ID_NUM Schema"
+    },
+    "NUMBER_OF_TOKENS": {
+      "type": "integer",
+      "default": 0,
+      "title": "The NUMBER_OF_TOKENS Schema"
+    },
+    "tokens": {
+      "type": "object",
+      "default": {},
+      "title": "The tokens Schema",
+      "properties": {
+        "C4": {
+          "type": "object",
+          "default": {},
+          "title": "The C4 Schema",
+          "required": [
+            "TKN_LEN",
+            "TERM-ATTEND-IND",
+            "TERM-OPER-IND",
+            "TERM-LOC-IND",
+            "CRDHLDR-PRESENT-IND",
+            "CRD-PRESENT-IND",
+            "CRD-CAPTR-IND",
+            "TXN-STAT-IND",
+            "TXN-SEC-IND",
+            "TXN-RTN-IND",
+            "CRDHLDR-ACTVT-TERM-IND",
+            "TERM-INPUT-CAP-IND",
+            "CRDHLDR-ID-METHOD"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "TERM-ATTEND-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-ATTEND-IND Schema"
+            },
+            "TERM-OPER-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-OPER-IND Schema"
+            },
+            "TERM-LOC-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-LOC-IND Schema"
+            },
+            "CRDHLDR-PRESENT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CRDHLDR-PRESENT-IND Schema"
+            },
+            "CRD-PRESENT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-PRESENT-IND Schema"
+            },
+            "CRD-CAPTR-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-CAPTR-IND Schema"
+            },
+            "TXN-STAT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TXN-STAT-IND Schema"
+            },
+            "TXN-SEC-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TXN-SEC-IND Schema"
+            },
+            "TXN-RTN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TXN-RTN-IND Schema"
+            },
+            "CRDHLDR-ACTVT-TERM-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CRDHLDR-ACTVT-TERM-IND Schema"
+            },
+            "TERM-INPUT-CAP-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-INPUT-CAP-IND Schema"
+            },
+            "CRDHLDR-ID-METHOD": {
+              "type": "string",
+              "default": "",
+              "title": "The CRDHLDR-ID-METHOD Schema"
+            }
+          }
+        },
+        "BE": {
+          "type": "object",
+          "default": {},
+          "title": "The BE Schema",
+          "required": [
+            "TKN_LEN",
+            "AMT-1",
+            "AMT-2",
+            "CRNCY-CDE",
+            "CONV-RATE",
+            "CONV-DAT",
+            "CONV-IND",
+            "USER-FLD1"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "AMT-1": {
+              "type": "integer",
+              "default": "",
+              "title": "The AMT-1 Schema"
+            },
+            "AMT-2": {
+              "type": "integer",
+              "default": "",
+              "title": "The AMT-2 Schema"
+            },
+            "CRNCY-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The CRNCY-CDE Schema"
+            },
+            "CONV-RATE": {
+              "type": "string",
+              "default": "",
+              "title": "The CONV-RATE Schema"
+            },
+            "CONV-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The CONV-DAT Schema"
+            },
+            "CONV-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CONV-IND Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            }
+          }
+        },
+        "FH": {
+          "type": "object",
+          "default": {},
+          "title": "The FH Schema",
+          "required": [
+            "TKN_LEN",
+            "SCA-EXEMPT-IND",
+            "USER-FLD-ACI"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "SCA-EXEMPT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The SCA-EXEMPT-IND Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI Schema"
+            }
+          }
+        },
+        "F1": {
+          "type": "object",
+          "default": {},
+          "title": "The F1 Schema",
+          "required": [
+            "TKN_LEN",
+            "SCHEME-MERCH-ID",
+            "CRDHLDR-AUTHN-IND",
+            "DEV-TYP",
+            "PGM-TYP-ID",
+            "PMNT-INITIATION-CHAN",
+            "MOBILE-TXN-TYP",
+            "DAT-INFO",
+            "USER-FLD-ACI"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "SCHEME-MERCH-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The SCHEME-MERCH-ID Schema"
+            },
+            "CRDHLDR-AUTHN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CRDHLDR-AUTHN-IND Schema"
+            },
+            "DEV-TYP": {
+              "type": "string",
+              "default": "",
+              "title": "The DEV-TYP Schema"
+            },
+            "PGM-TYP-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The PGM-TYP-ID Schema"
+            },
+            "PMNT-INITIATION-CHAN": {
+              "type": "string",
+              "default": "",
+              "title": "The PMNT-INITIATION-CHAN Schema"
+            },
+            "MOBILE-TXN-TYP": {
+              "type": "string",
+              "default": "",
+              "title": "The MOBILE-TXN-TYP Schema"
+            },
+            "DAT-INFO": {
+              "type": "string",
+              "default": "",
+              "title": "The DAT-INFO Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI Schema"
+            }
+          }
+        },
+        "24": {
+          "type": "object",
+          "default": {},
+          "title": "The 24 Schema",
+          "required": [
+            "TKN_LEN",
+            "CRD-TYP",
+            "AUTH-ONLY",
+            "SVC-IND",
+            "EXP-DAT",
+            "CASH-DEP-FLG",
+            "CRD-STAT"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "CRD-TYP": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-TYP Schema"
+            },
+            "AUTH-ONLY": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTH-ONLY Schema"
+            },
+            "SVC-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The SVC-IND Schema"
+            },
+            "EXP-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The EXP-DAT Schema"
+            },
+            "CASH-DEP-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The CASH-DEP-FLG Schema"
+            },
+            "CRD-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-STAT Schema"
+            }
+          }
+        },
+        "28": {
+          "type": "object",
+          "default": {},
+          "title": "The 28 Schema",
+          "required": [
+            "TKN_LEN",
+            "EXP-DAT",
+            "CUR-AUTH-AMT",
+            "PEND-AUTHS",
+            "PREFIX-LGTH",
+            "OPEN-TO-BUY",
+            "AUTH-LMT",
+            "AUTH-BAL",
+            "LAST-PMNT-DAT",
+            "LAST-PMNT-AMT",
+            "ACCT-STAT",
+            "CRD-STAT",
+            "AUTH-LMT-IND",
+            "USER-FLD1"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "EXP-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The EXP-DAT Schema"
+            },
+            "CUR-AUTH-AMT": {
+              "type": "string",
+              "default": "",
+              "title": "The CUR-AUTH-AMT Schema"
+            },
+            "PEND-AUTHS": {
+              "type": "string",
+              "default": "",
+              "title": "The PEND-AUTHS Schema"
+            },
+            "PREFIX-LGTH": {
+              "type": "string",
+              "default": "",
+              "title": "The PREFIX-LGTH Schema"
+            },
+            "OPEN-TO-BUY": {
+              "type": "string",
+              "default": "",
+              "title": "The OPEN-TO-BUY Schema"
+            },
+            "AUTH-LMT": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTH-LMT Schema"
+            },
+            "AUTH-BAL": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTH-BAL Schema"
+            },
+            "LAST-PMNT-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The LAST-PMNT-DAT Schema"
+            },
+            "LAST-PMNT-AMT": {
+              "type": "string",
+              "default": "",
+              "title": "The LAST-PMNT-AMT Schema"
+            },
+            "ACCT-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The ACCT-STAT Schema"
+            },
+            "CRD-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-STAT Schema"
+            },
+            "AUTH-LMT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTH-LMT-IND Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            }
+          }
+        },
+        "P8": {
+          "type": "object",
+          "default": {},
+          "title": "The P8 Schema",
+          "required": [
+            "TKN_LEN",
+            "TAX-ID"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "TAX-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The TAX-ID Schema"
+            }
+          }
+        },
+        "25": {
+          "type": "object",
+          "default": {},
+          "title": "The 25 Schema",
+          "required": [
+            "TKN_LEN",
+            "TRAN-FEE",
+            "ORIG-FEE",
+            "TERM-SUR-PROFILE",
+            "RVSL-CDE",
+            "USER-FLD1",
+            "FLAT-FEE",
+            "PCNT-FEE",
+            "MIN-MAX"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "TRAN-FEE": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-FEE Schema"
+            },
+            "ORIG-FEE": {
+              "type": "string",
+              "default": "",
+              "title": "The ORIG-FEE Schema"
+            },
+            "TERM-SUR-PROFILE": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-SUR-PROFILE Schema"
+            },
+            "RVSL-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The RVSL-CDE Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            },
+            "FLAT-FEE": {
+              "type": "string",
+              "default": "",
+              "title": "The FLAT-FEE Schema"
+            },
+            "PCNT-FEE": {
+              "type": "string",
+              "default": "",
+              "title": "The PCNT-FEE Schema"
+            },
+            "MIN-MAX": {
+              "type": "string",
+              "default": "",
+              "title": "The MIN-MAX Schema"
+            }
+          }
+        },
+        "32": {
+          "type": "object",
+          "default": {},
+          "title": "The 32 Schema",
+          "required": [
+            "TKN_LEN",
+            "REAL-TIME-REQ-TYPE",
+            "PIP-RESPONSE-REQUEST",
+            "REAL-TIME-STATUS",
+            "REAL-TIME-SCORE",
+            "RTR-RULE-FIRED",
+            "RTR-DISPOSITION",
+            "RTR-FILLER"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "REAL-TIME-REQ-TYPE": {
+              "type": "string",
+              "default": "",
+              "title": "The REAL-TIME-REQ-TYPE Schema"
+            },
+            "PIP-RESPONSE-REQUEST": {
+              "type": "string",
+              "default": "",
+              "title": "The PIP-RESPONSE-REQUEST Schema"
+            },
+            "REAL-TIME-STATUS": {
+              "type": "string",
+              "default": "",
+              "title": "The REAL-TIME-STATUS Schema"
+            },
+            "REAL-TIME-SCORE": {
+              "type": "string",
+              "default": "",
+              "title": "The REAL-TIME-SCORE Schema"
+            },
+            "RTR-RULE-FIRED": {
+              "type": "string",
+              "default": "",
+              "title": "The RTR-RULE-FIRED Schema"
+            },
+            "RTR-DISPOSITION": {
+              "type": "string",
+              "default": "",
+              "title": "The RTR-DISPOSITION Schema"
+            },
+            "RTR-FILLER": {
+              "type": "string",
+              "default": "",
+              "title": "The RTR-FILLER Schema"
+            }
+          }
+        },
+        "S4": {
+          "type": "object",
+          "default": {},
+          "title": "The S4 Schema",
+          "required": [
+            "TKN_LEN",
+            "DATASET-ID",
+            "LGTH",
+            "SUPPL-DATA"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "DATASET-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The DATASET-ID Schema"
+            },
+            "LGTH": {
+              "type": "string",
+              "default": "",
+              "title": "The LGTH Schema"
+            },
+            "SUPPL-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The SUPPL-DATA Schema"
+            }
+          }
+        },
+        "B4": {
+          "type": "object",
+          "default": {},
+          "title": "The B4 Schema",
+          "required": [
+            "TKN_LEN",
+            "PT-SRV-ENTRY-MDE",
+            "TERM-ENTRY-CAP",
+            "LAST-EMV-STAT",
+            "DATA-SUSPECT",
+            "APPL-PAN-SEQ-NUM",
+            "APPRVD-RC",
+            "ATC-VRFY",
+            "USER-FLD-ACI",
+            "RSN-ONL-CDE",
+            "ARQC-VRFY",
+            "ISO-RC-IND"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "PT-SRV-ENTRY-MDE": {
+              "type": "string",
+              "default": "",
+              "title": "The PT-SRV-ENTRY-MDE Schema"
+            },
+            "TERM-ENTRY-CAP": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-ENTRY-CAP Schema"
+            },
+            "LAST-EMV-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The LAST-EMV-STAT Schema"
+            },
+            "DATA-SUSPECT": {
+              "type": "string",
+              "default": "",
+              "title": "The DATA-SUSPECT Schema"
+            },
+            "APPL-PAN-SEQ-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The APPL-PAN-SEQ-NUM Schema"
+            },
+            "APPRVD-RC": {
+              "type": "string",
+              "default": "",
+              "title": "The APPRVD-RC Schema"
+            },
+            "ATC-VRFY": {
+              "type": "string",
+              "default": "",
+              "title": "The ATC-VRFY Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI Schema"
+            },
+            "RSN-ONL-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The RSN-ONL-CDE Schema"
+            },
+            "ARQC-VRFY": {
+              "type": "string",
+              "default": "",
+              "title": "The ARQC-VRFY Schema"
+            },
+            "ISO-RC-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ISO-RC-IND Schema"
+            }
+          }
+        },
+        "F4": {
+          "type": "object",
+          "default": {},
+          "title": "The F4 Schema",
+          "required": [
+            "TKN_LEN",
+            "WALLET-IND-FLG",
+            "DGTL-WALLET-DATA"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "WALLET-IND-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The WALLET-IND-FLG Schema"
+            },
+            "DGTL-WALLET-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The DGTL-WALLET-DATA Schema"
+            }
+          }
+        },
+        "B2": {
+          "type": "object",
+          "default": {},
+          "title": "The B2 Schema",
+          "required": [
+            "TKN_LEN",
+            "BIT-MAP",
+            "USER-FLD1",
+            "CRYPTO-INFO-DATA",
+            "TVR",
+            "ARQC",
+            "AMT-AUTH",
+            "AMT-OTHER",
+            "AIP",
+            "ATC",
+            "TERM-CNTRY-CDE",
+            "TRAN-CRNCY-CDE",
+            "TRAN-DAT",
+            "TRAN-TYPE",
+            "UNPREDICT-NUM",
+            "ISS-APPL-DATA-LGTH",
+            "LGTH",
+            "DERIV-KEY-INDEX",
+            "CRYPTO-VER-NUM",
+            "CRD-VRFY-RSLTS",
+            "INFO"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "BIT-MAP": {
+              "type": "string",
+              "default": "",
+              "title": "The BIT-MAP Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            },
+            "CRYPTO-INFO-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The CRYPTO-INFO-DATA Schema"
+            },
+            "TVR": {
+              "type": "string",
+              "default": "",
+              "title": "The TVR Schema"
+            },
+            "ARQC": {
+              "type": "string",
+              "default": "",
+              "title": "The ARQC Schema"
+            },
+            "AMT-AUTH": {
+              "type": "string",
+              "default": "",
+              "title": "The AMT-AUTH Schema"
+            },
+            "AMT-OTHER": {
+              "type": "string",
+              "default": "",
+              "title": "The AMT-OTHER Schema"
+            },
+            "AIP": {
+              "type": "string",
+              "default": "",
+              "title": "The AIP Schema"
+            },
+            "ATC": {
+              "type": "string",
+              "default": "",
+              "title": "The ATC Schema"
+            },
+            "TERM-CNTRY-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-CNTRY-CDE Schema"
+            },
+            "TRAN-CRNCY-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-CRNCY-CDE Schema"
+            },
+            "TRAN-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-DAT Schema"
+            },
+            "TRAN-TYPE": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-TYPE Schema"
+            },
+            "UNPREDICT-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The UNPREDICT-NUM Schema"
+            },
+            "ISS-APPL-DATA-LGTH": {
+              "type": "string",
+              "default": "",
+              "title": "The ISS-APPL-DATA-LGTH Schema"
+            },
+            "LGTH": {
+              "type": "string",
+              "default": "",
+              "title": "The LGTH Schema"
+            },
+            "DERIV-KEY-INDEX": {
+              "type": "string",
+              "default": "",
+              "title": "The DERIV-KEY-INDEX Schema"
+            },
+            "CRYPTO-VER-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The CRYPTO-VER-NUM Schema"
+            },
+            "CRD-VRFY-RSLTS": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-VRFY-RSLTS Schema"
+            },
+            "INFO": {
+              "type": "string",
+              "default": "",
+              "title": "The INFO Schema"
+            }
+          }
+        },
+        "B3": {
+          "type": "object",
+          "default": {},
+          "title": "The B3 Schema",
+          "required": [
+            "TKN_LEN",
+            "BIT-MAP",
+            "TERM-SERL-NUM",
+            "EMV-TERM-CAP",
+            "USER-FLD1",
+            "USER-FLD2",
+            "EMV-TERM-TYPE",
+            "APPL-VER-NUM",
+            "CVM-RSLTS",
+            "DF-NAME-LGTH",
+            "DF-NAME"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "BIT-MAP": {
+              "type": "string",
+              "default": "",
+              "title": "The BIT-MAP Schema"
+            },
+            "TERM-SERL-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-SERL-NUM Schema"
+            },
+            "EMV-TERM-CAP": {
+              "type": "string",
+              "default": "",
+              "title": "The EMV-TERM-CAP Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            },
+            "USER-FLD2": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD2 Schema"
+            },
+            "EMV-TERM-TYPE": {
+              "type": "string",
+              "default": "",
+              "title": "The EMV-TERM-TYPE Schema"
+            },
+            "APPL-VER-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The APPL-VER-NUM Schema"
+            },
+            "CVM-RSLTS": {
+              "type": "string",
+              "default": "",
+              "title": "The CVM-RSLTS Schema"
+            },
+            "DF-NAME-LGTH": {
+              "type": "string",
+              "default": "",
+              "title": "The DF-NAME-LGTH Schema"
+            },
+            "DF-NAME": {
+              "type": "string",
+              "default": "",
+              "title": "The DF-NAME Schema"
+            }
+          }
+        },
+        "03": {
+          "type": "object",
+          "default": {},
+          "title": "The 03 Schema",
+          "required": [
+            "TKN_LEN",
+            "ERR-FLG",
+            "LOCL-PIN-VRFY-FLG",
+            "CRD-VRFY-FLG",
+            "COMPLETE-TRACK2-DATA",
+            "UAF-FLG",
+            "RCPT-RQSTD"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "ERR-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The ERR-FLG Schema"
+            },
+            "LOCL-PIN-VRFY-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The LOCL-PIN-VRFY-FLG Schema"
+            },
+            "CRD-VRFY-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-VRFY-FLG Schema"
+            },
+            "COMPLETE-TRACK2-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The COMPLETE-TRACK2-DATA Schema"
+            },
+            "UAF-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The UAF-FLG Schema"
+            },
+            "RCPT-RQSTD": {
+              "type": "string",
+              "default": "",
+              "title": "The RCPT-RQSTD Schema"
+            }
+          }
+        },
+        "04": {
+          "type": "object",
+          "default": {},
+          "title": "The 04 Schema",
+          "required": [
+            "TKN_LEN",
+            "ERR-FLG",
+            "CITY-EXT",
+            "CRD-VRFY-FLG",
+            "COMPLETE-TRACK2-DATA",
+            "UAF-FLG",
+            "RTE-GRP"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "ERR-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The ERR-FLG Schema"
+            },
+            "RTE-GRP": {
+              "type": "string",
+              "default": "",
+              "title": "The RTE-GRP Schema"
+            },
+            "CRD-VRFY-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-VRFY-FLG Schema"
+            },
+            "COMPLETE-TRACK2-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The COMPLETE-TRACK2-DATA Schema"
+            },
+            "UAF-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The UAF-FLG Schema"
+            },
+            "CITY-EXT": {
+              "type": "string",
+              "default": "",
+              "title": "The CITY-EXT Schema"
+            }
+          }
+        },
+        "B5": {
+          "type": "object",
+          "default": {},
+          "title": "The B7 Schema",
+          "required": [
+            "TKN_LEN",
+            "ISS-AUTH-DATA-LGTH",
+            "ARPC",
+            "ADDL-DATA",
+            "SEND-CRD-BLK",
+            "SEND-PUT-DATA"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "ISS-AUTH-DATA-LGTH": {
+              "type": "integer",
+              "default": 0,
+              "title": "The ISS-AUTH-DATA-LGTH Schema"
+            },
+            "ARPC": {
+              "type": "string",
+              "default": "",
+              "title": "The ARPC Schema"
+            },
+            "ADDL-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The ADDL-DATA Schema"
+            },
+            "SEND-CRD-BLK": {
+              "type": "string",
+              "default": "",
+              "title": "The SEND-CRD-BLK Schema"
+            },
+            "SEND-PUT-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The SEND-PUT-DATA Schema"
+            }
+          }
+        },
+        "B7": {
+          "type": "object",
+          "default": {},
+          "title": "The B7 Schema",
+          "required": [
+            "TKN_LEN",
+            "RBA",
+            "TLF-NAM",
+            "TKN-RETRV-OPT",
+            "KEY-DATA",
+            "FILE-FRMT",
+            "USER-FLD1"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "RBA": {
+              "type": "string",
+              "default": "",
+              "title": "The RBA Schema"
+            },
+            "TLF-NAM": {
+              "type": "string",
+              "default": "",
+              "title": "The TLF-NAM Schema"
+            },
+            "TKN-RETRV-OPT": {
+              "type": "string",
+              "default": "",
+              "title": "The TKN-RETRV-OPT Schema"
+            },
+            "KEY-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The KEY-DATA Schema"
+            },
+            "FILE-FRMT": {
+              "type": "string",
+              "default": "",
+              "title": "The FILE-FRMT Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            }
+          }
+        },
+        "20": {
+          "type": "object",
+          "default": {},
+          "title": "The 20 Schema",
+          "required": [
+            "TKN_LEN",
+            "LIFE-CYCLE-IND",
+            "TRACE-ID",
+            "VALID-CDE",
+            "MONITORING-STAT",
+            "ERR-IND"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "LIFE-CYCLE-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The LIFE-CYCLE-IND Schema"
+            },
+            "TRACE-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The TRACE-ID Schema"
+            },
+            "VALID-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The VALID-CDE Schema"
+            },
+            "MONITORING-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The MONITORING-STAT Schema"
+            },
+            "ERR-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ERR-IND Schema"
+            }
+          }
+        },
+        "B8": {
+          "type": "object",
+          "default": {},
+          "title": "The B8 Schema",
+          "required": [
+            "TKN_LEN",
+            "ACQ-TXN-PRFL",
+            "ISS-TXN-PRFL",
+            "DISCRD-RVSL-FLG",
+            "APCF-RTE"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "ACQ-TXN-PRFL": {
+              "type": "string",
+              "default": "",
+              "title": "The ACQ-TXN-PRFL Schema"
+            },
+            "ISS-TXN-PRFL": {
+              "type": "string",
+              "default": "",
+              "title": "The ISS-TXN-PRFL Schema"
+            },
+            "DISCRD-RVSL-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The DISCRD-RVSL-FLG Schema"
+            },
+            "APCF-RTE": {
+              "type": "string",
+              "default": "",
+              "title": "The APCF-RTE Schema"
+            }
+          }
+        },
+        "B9": {
+          "type": "object",
+          "default": {},
+          "title": "The B9 Schema",
+          "required": [
+            "TKN_LEN",
+            "ACQ-DESCR-TAG",
+            "ISS-DESCR-TAG"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "ACQ-DESCR-TAG": {
+              "type": "string",
+              "default": "",
+              "title": "The ACQ-DESCR-TAG Schema"
+            },
+            "ISS-DESCR-TAG": {
+              "type": "string",
+              "default": "",
+              "title": "The ISS-DESCR-TAG Schema"
+            }
+          }
+        },
+        "Q2": {
+          "type": "object",
+          "default": {},
+          "title": "The Q2 Schema",
+          "required": [
+            "TKN_LEN",
+            "UNIQUE-ID"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "UNIQUE-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The UNIQUE-ID Schema"
+            }
+          }
+        },
+        "Q3": {
+          "type": "object",
+          "default": {},
+          "title": "The Q3 Schema",
+          "required": [
+            "TKN_LEN",
+            "COUNTRY_CODE",
+            "USER_FIELD_CNTRY"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "COUNTRY_CODE": {
+              "type": "string",
+              "default": "",
+              "title": "The COUNTRY_CODE Schema"
+            },
+            "USER_FIELD_CNTRY": {
+              "type": "string",
+              "default": "",
+              "title": "The USER_FIELD_CNTRY Schema"
+            }
+          }
+        },
+        "06": {
+          "type": "object",
+          "default": {},
+          "title": "The 06 Schema",
+          "required": [
+            "TKN_LEN",
+            "NEW-PIN-FRMT",
+            "NEW-PIN-OFST",
+            "PIN-CNT",
+            "NEW-PIN-SIZE",
+            "NEW-PIN-1",
+            "NEW-PIN-2"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "NEW-PIN-FRMT": {
+              "type": "string",
+              "default": "",
+              "title": "The NEW-PIN-FRMT Schema"
+            },
+            "NEW-PIN-OFST": {
+              "type": "string",
+              "default": "",
+              "title": "The NEW-PIN-OFST Schema"
+            },
+            "PIN-CNT": {
+              "type": "string",
+              "default": "",
+              "title": "The PIN-CNT Schema"
+            },
+            "NEW-PIN-SIZE": {
+              "type": "string",
+              "default": "",
+              "title": "The NEW-PIN-SIZE Schema"
+            },
+            "NEW-PIN-1": {
+              "type": "string",
+              "default": "",
+              "title": "The NEW-PIN-1 Schema"
+            },
+            "NEW-PIN-2": {
+              "type": "string",
+              "default": "",
+              "title": "The NEW-PIN-2 Schema"
+            }
+          }
+        },
+        "BM": {
+          "type": "object",
+          "default": {},
+          "title": "The BM Schema",
+          "required": [
+            "TKN_LEN",
+            "TXN-SUBTYP",
+            "ACQ-PROC-CDE",
+            "ISS-PROC-CDE",
+            "USER-FLD1"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "TXN-SUBTYP": {
+              "type": "string",
+              "default": "",
+              "title": "The TXN-SUBTYP Schema"
+            },
+            "ACQ-PROC-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ACQ-PROC-CDE Schema"
+            },
+            "ISS-PROC-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ISS-PROC-CDE Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            }
+          }
+        },
+        "A6": {
+          "type": "object",
+          "default": {},
+          "title": "The A6 Schema",
+          "required": [
+            "TKN_LEN",
+            "LIFE-CYCLE-IND",
+            "TRACE-ID",
+            "VALID-CDE",
+            "MONITORING-STAT",
+            "ERR-IND"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "LIFE-CYCLE-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The LIFE-CYCLE-IND Schema"
+            },
+            "TRACE-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The TRACE-ID Schema"
+            },
+            "VALID-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The VALID-CDE Schema"
+            },
+            "MONITORING-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The MONITORING-STAT Schema"
+            },
+            "ERR-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ERR-IND Schema"
+            }
+          }
+        },
+        "CH": {
+          "type": "object",
+          "default": {},
+          "title": "The CH Schema",
+          "required": [
+            "TKN_LEN",
+            "RESP-SRC-RSN-CDE",
+            "CRD-VRFY-FLG2",
+            "ONLINE-LMT",
+            "RETL-CLASS-CDE",
+            "EMV-CAPABLE-OUTLET",
+            "RECUR-PMNT-IND",
+            "NUM-INSTL",
+            "NUM-MM-GRATUITY",
+            "PMNT-PLAN",
+            "TERM-OUTPUT-CAP-IND",
+            "CRDHLDR-AUTHN-CAP-IND",
+            "PARTIAL-AUTH-OPT",
+            "USER-FLD1"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "RESP-SRC-RSN-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The RESP-SRC-RSN-CDE Schema"
+            },
+            "CRD-VRFY-FLG2": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-VRFY-FLG2 Schema"
+            },
+            "ONLINE-LMT": {
+              "type": "string",
+              "default": "",
+              "title": "The ONLINE-LMT Schema"
+            },
+            "RETL-CLASS-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The RETL-CLASS-CDE Schema"
+            },
+            "EMV-CAPABLE-OUTLET": {
+              "type": "string",
+              "default": "",
+              "title": "The EMV-CAPABLE-OUTLET Schema"
+            },
+            "RECUR-PMNT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The RECUR-PMNT-IND Schema"
+            },
+            "NUM-INSTL": {
+              "type": "string",
+              "default": "",
+              "title": "The NUM-INSTL Schema"
+            },
+            "NUM-MM-GRATUITY": {
+              "type": "string",
+              "default": "",
+              "title": "The NUM-MM-GRATUITY Schema"
+            },
+            "PMNT-PLAN": {
+              "type": "string",
+              "default": "",
+              "title": "The PMNT-PLAN Schema"
+            },
+            "TERM-OUTPUT-CAP-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-OUTPUT-CAP-IND Schema"
+            },
+            "CRDHLDR-AUTHN-CAP-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CRDHLDR-AUTHN-CAP-IND Schema"
+            },
+            "PARTIAL-AUTH-OPT": {
+              "type": "string",
+              "default": "",
+              "title": "The PARTIAL-AUTH-OPT Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            }
+          }
+        },
+        "C0": {
+          "type": "object",
+          "default": {},
+          "title": "The C0 Schema",
+          "required": [
+            "TKN_LEN",
+            "CVD-FLD",
+            "RESUB-STAT",
+            "RESUB-CNTR",
+            "TERM-POSTAL-CDE",
+            "E-COM-FLG",
+            "CMRCL-CRD-TYP",
+            "ADNL-DATA-IND",
+            "CVD-FLD-PRESENT",
+            "SAF-OR-FORCE-POST",
+            "AUTHN-COLL-IND",
+            "FRD-PRN-FLG",
+            "CAVV-AAV-RSLT-CDE"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "CVD-FLD": {
+              "type": "string",
+              "default": "",
+              "title": "The CVD-FLD Schema"
+            },
+            "RESUB-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The RESUB-STAT Schema"
+            },
+            "RESUB-CNTR": {
+              "type": "string",
+              "default": "",
+              "title": "The RESUB-CNTR Schema"
+            },
+            "TERM-POSTAL-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-POSTAL-CDE Schema"
+            },
+            "E-COM-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The E-COM-FLG Schema"
+            },
+            "CMRCL-CRD-TYP": {
+              "type": "string",
+              "default": "",
+              "title": "The CMRCL-CRD-TYP Schema"
+            },
+            "ADNL-DATA-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ADNL-DATA-IND Schema"
+            },
+            "CVD-FLD-PRESENT": {
+              "type": "string",
+              "default": "",
+              "title": "The CVD-FLD-PRESENT Schema"
+            },
+            "SAF-OR-FORCE-POST": {
+              "type": "string",
+              "default": "",
+              "title": "The SAF-OR-FORCE-POST Schema"
+            },
+            "AUTHN-COLL-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTHN-COLL-IND Schema"
+            },
+            "FRD-PRN-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The FRD-PRN-FLG Schema"
+            },
+            "CAVV-AAV-RSLT-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The CAVV-AAV-RSLT-CDE Schema"
+            }
+          }
+        },
+        "CE": {
+          "type": "object",
+          "default": {},
+          "title": "The CE Schema",
+          "required": [
+            "TKN_LEN",
+            "AUTHN-IND-FLG",
+            "AUTHN-IND-DATA"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "AUTHN-IND-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTHN-IND-FLG Schema"
+            },
+            "AUTHN-IND-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTHN-IND-DATA Schema"
+            }
+          }
+        },
+        "FB": {
+          "type": "object",
+          "default": {},
+          "title": "The FB Schema",
+          "required": [
+            "TKN_LEN",
+            "DATA-IND-FLG",
+            "INFO-DATA-LGTH",
+            "INFO"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "DATA-IND-FLG": {
+              "type": "string",
+              "default": "",
+              "title": "The DATA-IND-FLG Schema"
+            },
+            "INFO-DATA-LGTH": {
+              "type": "string",
+              "default": "",
+              "title": "The INFO-DATA-LGTH Schema"
+            },
+            "INFO": {
+              "type": "string",
+              "default": "",
+              "title": "The INFO Schema"
+            }
+          }
+        },
+        "B1": {
+          "type": "object",
+          "default": {},
+          "title": "The B1 Schema",
+          "required": [
+            "TKN_LEN",
+            "LGHT",
+            "FIID",
+            "VER-ID",
+            "LOCAL-TIM",
+            "LOCAL-DAT",
+            "ADVICE-RSN-CDE",
+            "POS-ENTRY-MDE",
+            "RESP-CDE",
+            "CRD-VRFY-RESULT",
+            "VISA-ACCT-STAT-IND",
+            "AUTHN-IND",
+            "USER-FLD-ACI2",
+            "PROC-CDE",
+            "ON-BEHALF",
+            "MCHIP-PRO-IND",
+            "MCHIP-PROC-INFO",
+            "TRAN-FEE",
+            "E-COM-SEC-LVL-IND",
+            "AVS-RESULT",
+            "ACCT-NUM-IND",
+            "ADVC-DETL-CDE",
+            "AUTH-AGENT-ID-CDE",
+            "PMNT-TXN-TYP-IND",
+            "CHIP-BIT-ERR-RSLTS",
+            "CRD-LVL-RSLT",
+            "MC-GTWY-TXN-IND",
+            "MC-ASGN-ID-SUB-FLD-32",
+            "VPAN",
+            "RTE-IND",
+            "VISA-MKT-SPCFC-DATA",
+            "NTL-POS-DATA",
+            "PIN-SVC-CDE",
+            "PIN-CAP-CDE",
+            "AUTH-SYS-ADV-DAT-TIM",
+            "FRAUD-DATA",
+            "PMNT-INITIATION-CHAN",
+            "TLE-COMPLIANT-IND",
+            "UKPT-COMPLIANT-IND",
+            "SANCTION-SCRN-SCORE",
+            "VISA-SPEND-QUALIFIED-IND",
+            "TXN-INTGTY-CLAS",
+            "ORIG-E-COM-SEC-LVL-IND",
+            "E-COM-SEC-DOWNGRADE-RSN",
+            "ADVC-DETL-TXT",
+            "WALLET-ID"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "LGHT": {
+              "type": "integer",
+              "default": 0,
+              "title": "The LGHT Schema"
+            },
+            "FIID": {
+              "type": "string",
+              "default": "",
+              "title": "The FIID Schema"
+            },
+            "VER-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The VER-ID Schema"
+            },
+            "LOCAL-TIM": {
+              "type": "string",
+              "default": "",
+              "title": "The LOCAL-TIM Schema"
+            },
+            "LOCAL-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The LOCAL-DAT Schema"
+            },
+            "ADVICE-RSN-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ADVICE-RSN-CDE Schema"
+            },
+            "POS-ENTRY-MDE": {
+              "type": "string",
+              "default": "",
+              "title": "The POS-ENTRY-MDE Schema"
+            },
+            "RESP-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The RESP-CDE Schema"
+            },
+            "CRD-VRFY-RESULT": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-VRFY-RESULT Schema"
+            },
+            "VISA-ACCT-STAT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The VISA-ACCT-STAT-IND Schema"
+            },
+            "AUTHN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTHN-IND Schema"
+            },
+            "USER-FLD-ACI2": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI2 Schema"
+            },
+            "PROC-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The PROC-CDE Schema"
+            },
+            "ON-BEHALF": {
+              "type": "string",
+              "default": "",
+              "title": "The ON-BEHALF Schema"
+            },
+            "MCHIP-PRO-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The MCHIP-PRO-IND Schema"
+            },
+            "MCHIP-PROC-INFO": {
+              "type": "string",
+              "default": "",
+              "title": "The MCHIP-PROC-INFO Schema"
+            },
+            "TRAN-FEE": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-FEE Schema"
+            },
+            "E-COM-SEC-LVL-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The E-COM-SEC-LVL-IND Schema"
+            },
+            "AVS-RESULT": {
+              "type": "string",
+              "default": "",
+              "title": "The AVS-RESULT Schema"
+            },
+            "ACCT-NUM-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ACCT-NUM-IND Schema"
+            },
+            "ADVC-DETL-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ADVC-DETL-CDE Schema"
+            },
+            "AUTH-AGENT-ID-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTH-AGENT-ID-CDE Schema"
+            },
+            "PMNT-TXN-TYP-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The PMNT-TXN-TYP-IND Schema"
+            },
+            "CHIP-BIT-ERR-RSLTS": {
+              "type": "string",
+              "default": "",
+              "title": "The CHIP-BIT-ERR-RSLTS Schema"
+            },
+            "CRD-LVL-RSLT": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-LVL-RSLT Schema"
+            },
+            "MC-GTWY-TXN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The MC-GTWY-TXN-IND Schema"
+            },
+            "MC-ASGN-ID-SUB-FLD-32": {
+              "type": "string",
+              "default": "",
+              "title": "The MC-ASGN-ID-SUB-FLD-32 Schema"
+            },
+            "VPAN": {
+              "type": "string",
+              "default": "",
+              "title": "The VPAN Schema"
+            },
+            "RTE-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The RTE-IND Schema"
+            },
+            "VISA-MKT-SPCFC-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The VISA-MKT-SPCFC-DATA Schema"
+            },
+            "NTL-POS-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The NTL-POS-DATA Schema"
+            },
+            "PIN-SVC-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The PIN-SVC-CDE Schema"
+            },
+            "PIN-CAP-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The PIN-CAP-CDE Schema"
+            },
+            "AUTH-SYS-ADV-DAT-TIM": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTH-SYS-ADV-DAT-TIM Schema"
+            },
+            "FRAUD-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The FRAUD-DATA Schema"
+            },
+            "PMNT-INITIATION-CHAN": {
+              "type": "string",
+              "default": "",
+              "title": "The PMNT-INITIATION-CHAN Schema"
+            },
+            "TLE-COMPLIANT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TLE-COMPLIANT-IND Schema"
+            },
+            "UKPT-COMPLIANT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The UKPT-COMPLIANT-IND Schema"
+            },
+            "SANCTION-SCRN-SCORE": {
+              "type": "string",
+              "default": "",
+              "title": "The SANCTION-SCRN-SCORE Schema"
+            },
+            "VISA-SPEND-QUALIFIED-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The VISA-SPEND-QUALIFIED-IND Schema"
+            },
+            "TXN-INTGTY-CLAS": {
+              "type": "string",
+              "default": "",
+              "title": "The TXN-INTGTY-CLAS Schema"
+            },
+            "ORIG-E-COM-SEC-LVL-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ORIG-E-COM-SEC-LVL-IND Schema"
+            },
+            "E-COM-SEC-DOWNGRADE-RSN": {
+              "type": "string",
+              "default": "",
+              "title": "The E-COM-SEC-DOWNGRADE-RSN Schema"
+            },
+            "ADVC-DETL-TXT": {
+              "type": "string",
+              "default": "",
+              "title": "The ADVC-DETL-TXT Schema"
+            },
+            "WALLET-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The WALLET-ID Schema"
+            }
+          }
+        },
+        "SC": {
+          "type": "object",
+          "default": {},
+          "title": "The SC Schema",
+          "required": [
+            "TKN_LEN",
+            "FRMT-CDE",
+            "PAN-TKN-DATA",
+            "TKN-ASSURANCE-LVL",
+            "TKN-RQ-ID",
+            "PAN-TKN-IND",
+            "PAN-TKN-EXP-DAT",
+            "TKN-TYP",
+            "TXN-TYP",
+            "USER-FLD1-ACI",
+            "PAN-LAST-FOUR-DGT",
+            "ACCT-STAT",
+            "ACT-IND",
+            "RPLMT-PAN-EXP-DAT",
+            "TKN-STAT",
+            "USER-FLD-ACI"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "FRMT-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The FRMT-CDE Schema"
+            },
+            "PAN-TKN-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The PAN-TKN-DATA Schema"
+            },
+            "TKN-ASSURANCE-LVL": {
+              "type": "string",
+              "default": "",
+              "title": "The TKN-ASSURANCE-LVL Schema"
+            },
+            "TKN-RQ-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The TKN-RQ-ID Schema"
+            },
+            "PAN-TKN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The PAN-TKN-IND Schema"
+            },
+            "PAN-TKN-EXP-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The PAN-TKN-EXP-DAT Schema"
+            },
+            "TKN-TYP": {
+              "type": "string",
+              "default": "",
+              "title": "The TKN-TYP Schema"
+            },
+            "TXN-TYP": {
+              "type": "string",
+              "default": "",
+              "title": "The TXN-TYP Schema"
+            },
+            "USER-FLD1-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1-ACI Schema"
+            },
+            "PAN-LAST-FOUR-DGT": {
+              "type": "string",
+              "default": "",
+              "title": "The PAN-LAST-FOUR-DGT Schema"
+            },
+            "ACCT-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The ACCT-STAT Schema"
+            },
+            "ACT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ACT-IND Schema"
+            },
+            "RPLMT-PAN-EXP-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The RPLMT-PAN-EXP-DAT Schema"
+            },
+            "TKN-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The TKN-STAT Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI Schema"
+            }
+          }
+        },
+        "SH": {
+          "type": "object",
+          "default": {},
+          "title": "The SH Schema",
+          "required": [
+            "TKN_LEN",
+            "FRMT-CDE",
+            "LGHT",
+            "INFO"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "FRMT-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The FRMT-CDE Schema"
+            },
+            "LGHT": {
+              "type": "string",
+              "default": "",
+              "title": "The LGHT Schema"
+            },
+            "INFO": {
+              "type": "string",
+              "default": "",
+              "title": "The INFO Schema"
+            }
+          }
+        },
+        "CZ": {
+          "type": "object",
+          "default": {},
+          "title": "The CZ Schema",
+          "required": [
+            "TKN_LEN",
+            "ATC",
+            "FORM-FACTR-IND",
+            "ATC-VALID-IND",
+            "CRD-AUTHN-IND",
+            "PMNT-INITIATION-CHAN",
+            "CRDHLDR-VRFY-MTHD-ID-BY-DEV",
+            "ADNL-DATA-CDE"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "ATC": {
+              "type": "string",
+              "default": "",
+              "title": "The ATC Schema"
+            },
+            "FORM-FACTR-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The FORM-FACTR-IND Schema"
+            },
+            "ATC-VALID-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ATC-VALID-IND Schema"
+            },
+            "CRD-AUTHN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-AUTHN-IND Schema"
+            },
+            "PMNT-INITIATION-CHAN": {
+              "type": "string",
+              "default": "",
+              "title": "The PMNT-INITIATION-CHAN Schema"
+            },
+            "CRDHLDR-VRFY-MTHD-ID-BY-DEV": {
+              "type": "string",
+              "default": "",
+              "title": "The CRDHLDR-VRFY-MTHD-ID-BY-DEV Schema"
+            },
+            "ADNL-DATA-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ADNL-DATA-CDE Schema"
+            }
+          }
+        },
+        "B0": {
+          "type": "object",
+          "default": {},
+          "title": "The B0 Schema",
+          "required": [
+            "TKN_LEN",
+            "LGHT",
+            "FIID",
+            "VER-ID",
+            "LOCAL-TIM",
+            "LOCAL-DAT",
+            "ADVICE-RSN-CDE",
+            "POS-ENTRY-MDE",
+            "RESP-CDE",
+            "CRD-VRFY-RESULT",
+            "VISA-ACCT-STAT-IND",
+            "AUTHN-IND",
+            "USER-FLD-ACI2",
+            "PROC-CDE",
+            "ON-BEHALF",
+            "MCHIP-PRO-IND",
+            "MCHIP-PROC-INFO",
+            "TRAN-FEE",
+            "E-COM-SEC-LVL-IND",
+            "AVS-RESULT",
+            "ACCT-NUM-IND",
+            "ADVC-DETL-CDE",
+            "AUTH-AGENT-ID-CDE",
+            "PMNT-TXN-TYP-IND",
+            "CHIP-BIT-ERR-RSLTS",
+            "CRD-LVL-RSLT",
+            "MC-GTWY-TXN-IND",
+            "MC-ASGN-ID-SUB-FLD-32",
+            "VPAN",
+            "RTE-IND",
+            "VISA-MKT-SPCFC-DATA",
+            "NTL-POS-DATA",
+            "PIN-SVC-CDE",
+            "PIN-CAP-CDE",
+            "AUTH-SYS-ADV-DAT-TIM",
+            "FRAUD-DATA",
+            "PMNT-INITIATION-CHAN",
+            "TLE-COMPLIANT-IND",
+            "UKPT-COMPLIANT-IND",
+            "SANCTION-SCRN-SCORE",
+            "VISA-SPEND-QUALIFIED-IND",
+            "TXN-INTGTY-CLAS",
+            "ORIG-E-COM-SEC-LVL-IND",
+            "E-COM-SEC-DOWNGRADE-RSN",
+            "ADVC-DETL-TXT",
+            "WALLET-ID"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "LGHT": {
+              "type": "integer",
+              "default": 0,
+              "title": "The LGHT Schema"
+            },
+            "FIID": {
+              "type": "string",
+              "default": "",
+              "title": "The FIID Schema"
+            },
+            "VER-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The VER-ID Schema"
+            },
+            "LOCAL-TIM": {
+              "type": "string",
+              "default": "",
+              "title": "The LOCAL-TIM Schema"
+            },
+            "LOCAL-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The LOCAL-DAT Schema"
+            },
+            "ADVICE-RSN-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ADVICE-RSN-CDE Schema"
+            },
+            "POS-ENTRY-MDE": {
+              "type": "string",
+              "default": "",
+              "title": "The POS-ENTRY-MDE Schema"
+            },
+            "RESP-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The RESP-CDE Schema"
+            },
+            "CRD-VRFY-RESULT": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-VRFY-RESULT Schema"
+            },
+            "VISA-ACCT-STAT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The VISA-ACCT-STAT-IND Schema"
+            },
+            "AUTHN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTHN-IND Schema"
+            },
+            "USER-FLD-ACI2": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI2 Schema"
+            },
+            "PROC-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The PROC-CDE Schema"
+            },
+            "ON-BEHALF": {
+              "type": "string",
+              "default": "",
+              "title": "The ON-BEHALF Schema"
+            },
+            "MCHIP-PRO-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The MCHIP-PRO-IND Schema"
+            },
+            "MCHIP-PROC-INFO": {
+              "type": "string",
+              "default": "",
+              "title": "The MCHIP-PROC-INFO Schema"
+            },
+            "TRAN-FEE": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-FEE Schema"
+            },
+            "E-COM-SEC-LVL-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The E-COM-SEC-LVL-IND Schema"
+            },
+            "AVS-RESULT": {
+              "type": "string",
+              "default": "",
+              "title": "The AVS-RESULT Schema"
+            },
+            "ACCT-NUM-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ACCT-NUM-IND Schema"
+            },
+            "ADVC-DETL-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ADVC-DETL-CDE Schema"
+            },
+            "AUTH-AGENT-ID-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTH-AGENT-ID-CDE Schema"
+            },
+            "PMNT-TXN-TYP-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The PMNT-TXN-TYP-IND Schema"
+            },
+            "CHIP-BIT-ERR-RSLTS": {
+              "type": "string",
+              "default": "",
+              "title": "The CHIP-BIT-ERR-RSLTS Schema"
+            },
+            "CRD-LVL-RSLT": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-LVL-RSLT Schema"
+            },
+            "MC-GTWY-TXN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The MC-GTWY-TXN-IND Schema"
+            },
+            "MC-ASGN-ID-SUB-FLD-32": {
+              "type": "string",
+              "default": "",
+              "title": "The MC-ASGN-ID-SUB-FLD-32 Schema"
+            },
+            "VPAN": {
+              "type": "string",
+              "default": "",
+              "title": "The VPAN Schema"
+            },
+            "RTE-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The RTE-IND Schema"
+            },
+            "VISA-MKT-SPCFC-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The VISA-MKT-SPCFC-DATA Schema"
+            },
+            "NTL-POS-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The NTL-POS-DATA Schema"
+            },
+            "PIN-SVC-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The PIN-SVC-CDE Schema"
+            },
+            "PIN-CAP-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The PIN-CAP-CDE Schema"
+            },
+            "AUTH-SYS-ADV-DAT-TIM": {
+              "type": "string",
+              "default": "",
+              "title": "The AUTH-SYS-ADV-DAT-TIM Schema"
+            },
+            "FRAUD-DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The FRAUD-DATA Schema"
+            },
+            "PMNT-INITIATION-CHAN": {
+              "type": "string",
+              "default": "",
+              "title": "The PMNT-INITIATION-CHAN Schema"
+            },
+            "TLE-COMPLIANT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TLE-COMPLIANT-IND Schema"
+            },
+            "UKPT-COMPLIANT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The UKPT-COMPLIANT-IND Schema"
+            },
+            "SANCTION-SCRN-SCORE": {
+              "type": "string",
+              "default": "",
+              "title": "The SANCTION-SCRN-SCORE Schema"
+            },
+            "VISA-SPEND-QUALIFIED-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The VISA-SPEND-QUALIFIED-IND Schema"
+            },
+            "TXN-INTGTY-CLAS": {
+              "type": "string",
+              "default": "",
+              "title": "The TXN-INTGTY-CLAS Schema"
+            },
+            "ORIG-E-COM-SEC-LVL-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ORIG-E-COM-SEC-LVL-IND Schema"
+            },
+            "E-COM-SEC-DOWNGRADE-RSN": {
+              "type": "string",
+              "default": "",
+              "title": "The E-COM-SEC-DOWNGRADE-RSN Schema"
+            },
+            "ADVC-DETL-TXT": {
+              "type": "string",
+              "default": "",
+              "title": "The ADVC-DETL-TXT Schema"
+            },
+            "WALLET-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The WALLET-ID Schema"
+            }
+          }
+        },
+        "SG": {
+          "type": "object",
+          "default": {},
+          "title": "The SG Schema",
+          "required": [
+            "TKN_LEN",
+            "FRMT-CDE",
+            "SCORE",
+            "RSN-CDE",
+            "RULE-ADJ-SCORE",
+            "RULE-RSN-CDE-1",
+            "RULE-RSN-CDE-2"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "FRMT-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The FRMT-CDE Schema"
+            },
+            "SCORE": {
+              "type": "string",
+              "default": "",
+              "title": "The SCORE Schema"
+            },
+            "RSN-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The RSN-CDE Schema"
+            },
+            "RULE-ADJ-SCORE": {
+              "type": "string",
+              "default": "",
+              "title": "The FRMT-CDE Schema"
+            },
+            "RULE-RSN-CDE-1": {
+              "type": "string",
+              "default": "",
+              "title": "The RULE-RSN-CDE-1 Schema"
+            },
+            "RULE-RSN-CDE-2": {
+              "type": "string",
+              "default": "",
+              "title": "The RULE-RSN-CDE-2 Schema"
+            }
+          }
+        },
+        "BY": {
+          "type": "object",
+          "default": {},
+          "title": "The BY Schema",
+          "required": [
+            "TKN_LEN",
+            "STAN",
+            "RETRVL-REF-NUM",
+            "NETWK-ID",
+            "RESP-CDE",
+            "ISA-IND",
+            "ISA-AMT",
+            "FEE-PGM-IND",
+            "ON-OFF-PREM-IND",
+            "CROSS-BORDER-TXN-IND",
+            "CROSS-BORDER-CRNCY-IND",
+            "CRNCY-CONV-ASSESS-AMT",
+            "CRD-LVL-PROD-ID-VAL",
+            "USER-FLD-ACI"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "STAN": {
+              "type": "string",
+              "default": "",
+              "title": "The STAN Schema"
+            },
+            "RETRVL-REF-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The RETRVL-REF-NUM Schema"
+            },
+            "NETWK-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The NETWK-ID Schema"
+            },
+            "RESP-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The RESP-CDE Schema"
+            },
+            "ISA-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ISA-IND Schema"
+            },
+            "ISA-AMT": {
+              "type": "string",
+              "default": "",
+              "title": "The ISA-AMT Schema"
+            },
+            "FEE-PGM-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The FEE-PGM-IND Schema"
+            },
+            "ON-OFF-PREM-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The ON-OFF-PREM-IND Schema"
+            },
+            "CROSS-BORDER-TXN-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CROSS-BORDER-TXN-IND Schema"
+            },
+            "CROSS-BORDER-CRNCY-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The CROSS-BORDER-CRNCY-IND Schema"
+            },
+            "CRNCY-CONV-ASSESS-AMT": {
+              "type": "string",
+              "default": "",
+              "title": "The CRNCY-CONV-ASSESS-AMT Schema"
+            },
+            "CRD-LVL-PROD-ID-VAL": {
+              "type": "string",
+              "default": "",
+              "title": "The CRD-LVL-PROD-ID-VAL Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI Schema"
+            }
+          }
+        },
+        "Q1": {
+          "type": "object",
+          "default": {},
+          "title": "The Q1 Schema",
+          "required": [
+            "TKN_LEN",
+            "USER-FIELD-1-STR",
+            "USER-FIELD-2-STR ",
+            "USER-FIELD-3-STR",
+            "USER-FIELD-4-STR",
+            "USER-FIELD-5-STR",
+            "MERCHANT-TRAN-ID",
+            "UUID",
+            "REFERENCE-UUID",
+            "IP-VERSION",
+            "TRAN-SOURCE-IP-STR"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "USER-FIELD-1-STR": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FIELD-1-STR Schema"
+            },
+            "USER-FIELD-2-STR": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FIELD-2-STR Schema"
+            },
+            "USER-FIELD-3-STR": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FIELD-3-STR Schema"
+            },
+            "USER-FIELD-4-STR": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FIELD-4-STR Schema"
+            },
+            "USER-FIELD-5-STR": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FIELD-5-STR Schema"
+            },
+            "MERCHANT-TRAN-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The MERCHANT-TRAN-ID Schema"
+            },
+            "UUID": {
+              "type": "string",
+              "default": "",
+              "title": "The UUID Schema"
+            },
+            "REFERENCE-UUID": {
+              "type": "string",
+              "default": "",
+              "title": "The REFERENCE-UUID Schema"
+            },
+            "IP-VERSION": {
+              "type": "string",
+              "default": "",
+              "title": "The IP-VERSION Schema"
+            },
+            "TRAN-SOURCE-IP-STR": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-SOURCE-IP-STR Schema"
+            }
+          }
+        },
+        "S2": {
+          "type": "object",
+          "default": {},
+          "title": "The S2 Schema",
+          "required": [
+            "TKN_LEN",
+            "DCC-PRFL",
+            "DCC-STAT",
+            "DCC-SUBSTAT"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "DCC-PRFL": {
+              "type": "string",
+              "default": "",
+              "title": "The DCC-PRFL Schema"
+            },
+            "DCC-STAT": {
+              "type": "string",
+              "default": "",
+              "title": "The DCC-STAT Schema"
+            },
+            "DCC-SUBSTAT": {
+              "type": "string",
+              "default": "",
+              "title": "The E-COMM-GOODS-IND Schema"
+            }
+          }
+        },
+        "CI": {
+          "type": "object",
+          "default": {},
+          "title": "The CI Schema",
+          "required": [
+            "TKN_LEN",
+            "E-COMM-GOODS-IND",
+            "EXISTING-DEBT-IND",
+            "DEFERRED-BILLING-IND",
+            "RELN-PARTICIPANT-IND",
+            "DPC-NUM",
+            "PINPAD-ID",
+            "ACQ-TERM-ID",
+            "RCNCL-ENT",
+            "ACQ-TERM-POST-DAT",
+            "PRE-AUTH-CHRGBK",
+            "ENHANCED-PRE-AUTH",
+            "ADNL-RESP-CDE",
+            "MC-ELEC-ACCPT-IND",
+            "MRCH-ID",
+            "PGM-IND",
+            "USER-FLD1"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "E-COMM-GOODS-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The E-COMM-GOODS-IND Schema"
+            },
+            "EXISTING-DEBT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The EXISTING-DEBT-IND Schema"
+            },
+            "DEFERRED-BILLING-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The DEFERRED-BILLING-IND Schema"
+            },
+            "RELN-PARTICIPANT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The RELN-PARTICIPANT-IND Schema"
+            },
+            "DPC-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The DPC-NUM Schema"
+            },
+            "PINPAD-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The PINPAD-ID Schema"
+            },
+            "ACQ-TERM-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The ACQ-TERM-ID Schema"
+            },
+            "RCNCL-ENT": {
+              "type": "string",
+              "default": "",
+              "title": "The RCNCL-ENT Schema"
+            },
+            "ACQ-TERM-POST-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The ACQ-TERM-POST-DAT Schema"
+            },
+            "PRE-AUTH-CHRGBK": {
+              "type": "string",
+              "default": "",
+              "title": "The PRE-AUTH-CHRGBK Schema"
+            },
+            "ENHANCED-PRE-AUTH": {
+              "type": "string",
+              "default": "",
+              "title": "The ENHANCED-PRE-AUTH Schema"
+            },
+            "ADNL-RESP-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ADNL-RESP-CDE Schema"
+            },
+            "MC-ELEC-ACCPT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The MC-ELEC-ACCPT-IND Schema"
+            },
+            "MRCH-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The MRCH-ID Schema"
+            },
+            "PGM-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The PGM-IND Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            }
+          }
+        },
+        "C1": {
+          "type": "object",
+          "default": {},
+          "title": "The C1 Schema",
+          "required": [
+            "TKN_LEN",
+            "STA-ID"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "STA-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The STA-ID Schema"
+            }
+          }
+        },
+        "21": {
+          "type": "object",
+          "default": {},
+          "title": "The 21 Schema",
+          "required": [
+            "TKN_LEN",
+            "SRV-IND",
+            "TRAN-ID",
+            "VALID-CDE"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "SRV-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The SRV-IND Schema"
+            },
+            "TRAN-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-ID Schema"
+            },
+            "VALID-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The VALID-CDE Schema"
+            }
+          }
+        },
+        "17": {
+          "type": "object",
+          "default": {},
+          "title": "The S6 Schema",
+          "required": [
+            "TKN_LEN",
+            "SRV-IND",
+            "TRAN-ID",
+            "VALID-CDE",
+            "MKT-SPFC-DATA-ID",
+            "DUR",
+            "PRSTGS-PROP-IND"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "SRV-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The SRV-IND Schema"
+            },
+            "TRAN-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The TRAN-ID Schema"
+            },
+            "VALID-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The VALID-CDE Schema"
+            },
+            "MKT-SPFC-DATA-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The MKT-SPFC-DATA-ID Schema"
+            },
+            "DUR": {
+              "type": "string",
+              "default": "",
+              "title": "The DUR Schema"
+            },
+            "PRSTGS-PROP-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The PRSTGS-PROP-IND Schema"
+            }
+          }
+        },
+        "S3": {
+          "type": "object",
+          "default": {},
+          "title": "The S3 Schema",
+          "required": [
+            "TKN_LEN",
+            "ISS-DESIGNATOR",
+            "BIN-CRNCY-CDE",
+            "BIN-CRNCY-DESCR",
+            "CNV-RATE-NEUTRAL",
+            "CNV-RATE-EFFECTIVE",
+            "CNV-RATE-SRC",
+            "CNV-RATE-DAT",
+            "SAVED-CRNCY-CDE",
+            "PCNT-MARK-UP",
+            "CONVERTED-AMT-1",
+            "CONVERTED-AMT-2",
+            "SAVED-AMT-1",
+            "SAVED-AMT-2",
+            "CONVERTED-ACQ-SURCH",
+            "CONVERTED-ISS-SURCH",
+            "SAVED-ACQ-SURCH",
+            "USER-FLD-ACI"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "ISS-DESIGNATOR": {
+              "type": "string",
+              "default": "",
+              "title": "The ISS-DESIGNATOR Schema"
+            },
+            "BIN-CRNCY-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The BIN-CRNCY-CDE Schema"
+            },
+            "BIN-CRNCY-DESCR": {
+              "type": "string",
+              "default": "",
+              "title": "The BIN-CRNCY-DESCR Schema"
+            },
+            "CNV-RATE-NEUTRAL": {
+              "type": "string",
+              "default": "",
+              "title": "The CNV-RATE-NEUTRAL Schema"
+            },
+            "CNV-RATE-EFFECTIVE": {
+              "type": "string",
+              "default": "",
+              "title": "The CNV-RATE-EFFECTIVE Schema"
+            },
+            "CNV-RATE-SRC": {
+              "type": "string",
+              "default": "",
+              "title": "The CNV-RATE-SRC Schema"
+            },
+            "CNV-RATE-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The CNV-RATE-DAT Schema"
+            },
+            "SAVED-CRNCY-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The SAVED-CRNCY-CDE Schema"
+            },
+            "PCNT-MARK-UP": {
+              "type": "integer",
+              "default": 0,
+              "title": "The PCNT-MARK-UP Schema"
+            },
+            "CONVERTED-AMT-1": {
+              "type": "integer",
+              "default": 0,
+              "title": "The CONVERTED-AMT-1 Schema"
+            },
+            "CONVERTED-AMT-2": {
+              "type": "integer",
+              "default": 0,
+              "title": "The CONVERTED-AMT-2 Schema"
+            },
+            "SAVED-AMT-1": {
+              "type": "integer",
+              "default": 0,
+              "title": "The SAVED-AMT-1 Schema"
+            },
+            "SAVED-AMT-2": {
+              "type": "integer",
+              "default": 0,
+              "title": "The SAVED-AMT-2 Schema"
+            },
+            "CONVERTED-ACQ-SURCH": {
+              "type": "integer",
+              "default": 0,
+              "title": "The CONVERTED-ACQ-SURCH Schema"
+            },
+            "CONVERTED-ISS-SURCH": {
+              "type": "integer",
+              "default": 0,
+              "title": "The CONVERTED-ISS-SURCH Schema"
+            },
+            "SAVED-ACQ-SURCH": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The TKN_LEN Schema"
+            }
+          }
+        },
+        "M1": {
+          "type": "object",
+          "default": {},
+          "title": "The M1 Schema",
+          "required": [
+            "TKN_LEN",
+            "TERM-CAPTURE-FLAG",
+            "USER-FLD-ACI"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "TERM-CAPTURE-FLAG": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-CAPTURE-FLAG Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI Schema"
+            }
+          }
+        },
+        "M2": {
+          "type": "object",
+          "default": {},
+          "title": "The M2 Schema",
+          "required": [
+            "TKN_LEN",
+            "TERM-TYP",
+            "ADJ-PROC",
+            "USER-FLD-ACI"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "TERM-TYP": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-TYP Schema"
+            },
+            "ADJ-PROC": {
+              "type": "string",
+              "default": "",
+              "title": "The ADJ-PROC Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI Schema"
+            }
+          }
+        },
+        "SO": {
+          "type": "object",
+          "default": {},
+          "title": "The SO Schema",
+          "required": [
+            "TKN_LEN",
+            "PAR",
+            "USER-FLD-ACI"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "PAR": {
+              "type": "string",
+              "default": "",
+              "title": "The PAR Schema"
+            },
+            "USER-FLD-ACI": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-ACI Schema"
+            }
+          }
+        },
+        "P9": {
+          "type": "object",
+          "default": {},
+          "title": "The P9 Schema",
+          "required": [
+            "TKN_LEN",
+            "MESSAGE-TYPE",
+            "CORRELATION-ID",
+            "NUM-ACTIVE-TKNS",
+            "ISSUER-PROD-CONFIG-ID",
+            "CONSUMER-LANG",
+            "DEVICE-NAME",
+            "FINAL-TKN-DECISION",
+            "FINAL-TKN-DECISION-IND",
+            "TERMS-COND-ID",
+            "TERMS-COND-DAT-TIM",
+            "NUM-ACT-ATTEMPTS",
+            "TKN-UNIQUE-REF",
+            "PAN-UNIQUE-REF",
+            "TOKEN-TYPE"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "MESSAGE-TYPE": {
+              "type": "string",
+              "default": "",
+              "title": "The MESSAGE-TYPE Schema"
+            },
+            "CORRELATION-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The CORRELATION-ID Schema"
+            },
+            "NUM-ACTIVE-TKNS": {
+              "type": "string",
+              "default": "",
+              "title": "The NUM-ACTIVE-TKNS Schema"
+            },
+            "ISSUER-PROD-CONFIG-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The ISSUER-PROD-CONFIG-ID Schema"
+            },
+            "CONSUMER-LANG": {
+              "type": "string",
+              "default": "",
+              "title": "The CONSUMER-LANG Schema"
+            },
+            "DEVICE-NAME": {
+              "type": "string",
+              "default": "",
+              "title": "The DEVICE-NAME Schema"
+            },
+            "FINAL-TKN-DECISION": {
+              "type": "string",
+              "default": "",
+              "title": "The FINAL-TKN-DECISION Schema"
+            },
+            "FINAL-TKN-DECISION-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The FINAL-TKN-DECISION-IND Schema"
+            },
+            "TERMS-COND-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The TERMS-COND-ID Schema"
+            },
+            "TERMS-COND-DAT-TIM": {
+              "type": "string",
+              "default": "",
+              "title": "The TERMS-COND-DAT-TIM Schema"
+            },
+            "NUM-ACT-ATTEMPTS": {
+              "type": "string",
+              "default": "",
+              "title": "The NUM-ACT-ATTEMPTS Schema"
+            },
+            "TKN-UNIQUE-REF": {
+              "type": "string",
+              "default": "",
+              "title": "The TKN-UNIQUE-REF Schema"
+            },
+            "PAN-UNIQUE-REF": {
+              "type": "string",
+              "default": "",
+              "title": "The PAN-UNIQUE-REF Schema"
+            },
+            "TOKEN-TYPE": {
+              "type": "string",
+              "default": "",
+              "title": "The TOKEN-TYPE Schema"
+            }
+          }
+        },
+        "AG": {
+          "type": "object",
+          "default": {},
+          "title": "The AG Schema",
+          "required": [
+            "TKN_LEN",
+            "TRK-USED",
+            "TERM-LOC-IND",
+            "LANG-CDE",
+            "TERM-ENVMT-IND",
+            "MOB-ACSS-IND",
+            "USER-FLD1"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "TRK-USED": {
+              "type": "string",
+              "default": "",
+              "title": "The TRK-USED Schema"
+            },
+            "TERM-LOC-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-LOC-IND Schema"
+            },
+            "LANG-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The LANG-CDE Schema"
+            },
+            "TERM-ENVMT-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The TERM-ENVMT-IND Schema"
+            },
+            "MOB-ACSS-IND": {
+              "type": "string",
+              "default": "",
+              "title": "The MOB-ACSS-IND Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            }
+          }
+        },
+        "SI": {
+          "type": "object",
+          "default": {},
+          "title": "The SI Schema",
+          "required": [
+            "TKN_LEN",
+            "FRMT-CDE",
+            "LGTH",
+            "ACCT-NUM",
+            "FIRST-NAME",
+            "MIDDLE-NAME",
+            "LAST-NAM",
+            "STREET-ADDR",
+            "CITY",
+            "ST",
+            "CNTRY",
+            "POSTAL-CDE",
+            "PHN-NUM",
+            "DOB",
+            "ID-TYP",
+            "ID-NUM",
+            "ID-CNTRY-CDE",
+            "ID-EXP-DAT",
+            "NATL-CNTRY-CDE",
+            "BIRTH-CNTRY-CDE",
+            "USER-FLD-MC"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "FRMT-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The FRMT-CDE Schema"
+            },
+            "LGTH": {
+              "type": "string",
+              "default": "",
+              "title": "The LGTH Schema"
+            },
+            "ACCT-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The ACCT-NUM Schema"
+            },
+            "FIRST-NAME": {
+              "type": "string",
+              "default": "",
+              "title": "The FIRST-NAME Schema"
+            },
+            "MIDDLE-NAME": {
+              "type": "string",
+              "default": "",
+              "title": "The MIDDLE-NAME Schema"
+            },
+            "LAST-NAM": {
+              "type": "string",
+              "default": "",
+              "title": "The LAST-NAM Schema"
+            },
+            "STREET-ADDR": {
+              "type": "string",
+              "default": "",
+              "title": "The STREET-ADDR Schema"
+            },
+            "CITY": {
+              "type": "string",
+              "default": "",
+              "title": "The CITY Schema"
+            },
+            "ST": {
+              "type": "string",
+              "default": "",
+              "title": "The ST Schema"
+            },
+            "CNTRY": {
+              "type": "string",
+              "default": "",
+              "title": "The CNTRY Schema"
+            },
+            "POSTAL-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The POSTAL-CDE Schema"
+            },
+            "PHN-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The PHN-NUM Schema"
+            },
+            "DOB": {
+              "type": "string",
+              "default": "",
+              "title": "The DOB Schema"
+            },
+            "ID-TYP": {
+              "type": "string",
+              "default": "",
+              "title": "The ID-TYP Schema"
+            },
+            "ID-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The ID-NUM Schema"
+            },
+            "ID-CNTRY-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The ID-CNTRY-CDE Schema"
+            },
+            "ID-EXP-DAT": {
+              "type": "string",
+              "default": "",
+              "title": "The ID-EXP-DAT Schema"
+            },
+            "NATL-CNTRY-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The NATL-CNTRY-CDE Schema"
+            },
+            "BIRTH-CNTRY-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The BIRTH-CNTRY-CDE Schema"
+            },
+            "USER-FLD-MC": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-MC Schema"
+            }
+          }
+        },
+        "SK": {
+          "type": "object",
+          "default": {},
+          "title": "The 16 Schema",
+          "required": [
+            "TKN_LEN",
+            "FRMT-CDE",
+            "LGTH",
+            "UNIQUE-REF-NUM",
+            "FUND-SRC",
+            "PARTICIPANT-ID",
+            "ADDL-MSG",
+            "TXN-RSN",
+            "USER-FLD-MC"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "FRMT-CDE": {
+              "type": "string",
+              "default": "",
+              "title": "The FRMT-CDE Schema"
+            },
+            "LGTH": {
+              "type": "string",
+              "default": "",
+              "title": "The LGTH Schema"
+            },
+            "UNIQUE-REF-NUM": {
+              "type": "string",
+              "default": "",
+              "title": "The UNIQUE-REF-NUM Schema"
+            },
+            "FUND-SRC": {
+              "type": "string",
+              "default": "",
+              "title": "The FUND-SRC Schema"
+            },
+            "PARTICIPANT-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The PARTICIPANT-ID Schema"
+            },
+            "ADDL-MSG": {
+              "type": "string",
+              "default": "",
+              "title": "The ADDL-MSG Schema"
+            },
+            "TXN-RSN": {
+              "type": "string",
+              "default": "",
+              "title": "The TXN-RSN Schema"
+            },
+            "USER-FLD-MC": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD-MC Schema"
+            }
+          }
+        },
+        "16": {
+          "type": "object",
+          "default": {},
+          "title": "The 16 Schema",
+          "required": [
+            "TKN_LEN",
+            "ALT-MERCH-ID",
+            "USER-FLD1"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "ALT-MERCH-ID": {
+              "type": "string",
+              "default": "",
+              "title": "The ALT-MERCH-ID Schema"
+            },
+            "USER-FLD1": {
+              "type": "string",
+              "default": "",
+              "title": "The USER-FLD1 Schema"
+            }
+          }
+        },
+        "S6": {
+          "type": "object",
+          "default": {},
+          "title": "The S6 Schema",
+          "required": [
+            "TKN_LEN",
+            "TRACK2"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "TRACK2": {
+              "type": "string",
+              "default": "",
+              "title": "The TRACK2 Schema"
+            }
+          }
+        },
+        "model": {
+          "type": "object",
+          "default": {},
+          "title": "The default Schema",
+          "required": [
+            "TKN_LEN",
+            "DATA"
+          ],
+          "properties": {
+            "TKN_LEN": {
+              "type": "integer",
+              "default": 0,
+              "title": "The TKN_LEN Schema"
+            },
+            "DATA": {
+              "type": "string",
+              "default": "",
+              "title": "The DATA Schema"
+            }
+          }
+        }
+      }
+    }
+  }
+}

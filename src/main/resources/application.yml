@@ -1,0 +1,22 @@
+server:
+    port: 8081
+spring:
+    kafka:
+        bootstrap-servers: ckafkadevl.tbankart.si:9092
+        consumer:
+            auto-offset-reset: earliest
+            enable-auto-commit: false
+            reset-offsets: to-earliest
+            group-id: Pencaa-group
+            topic: DEV1_TLF
+
+        producer:
+            topic: DEV1_TLF_AVRO
+
+
+logging:
+    level:
+        root: INFO
+        org.springframework.web: INFO
+        com.memorynotfound: INFO
+debug:
